@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4r9r1vyzsyz#sbjv)^ubhi_7e=#0x=)em3n450uuz2(lkj=41#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'health-diagnosis-app.onrender.com']
 
 
 # Application definition
