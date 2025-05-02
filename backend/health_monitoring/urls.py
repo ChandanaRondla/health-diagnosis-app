@@ -6,7 +6,7 @@ def live_view(request):
     return HttpResponse("✅ Backend is live and working!")
 
 urlpatterns = [
-    path('', live_view),  # 👈 Root route for /
+    path('', live_view),  # ✅ Root route for /
     path('admin/', admin.site.urls),
     path('accounts/', include('accounts.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
